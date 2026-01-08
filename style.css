@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* overflow-x: hidden; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 100;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 25px;
+    padding: 19px;
+}
+
+nav {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 368px;
+    height: 25px;
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+a {
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    top: 800px;
+    transition: 2s;
+}
+
+.main {
+    width: 100%;
+    height: 900px;
+    backdrop-filter: blur(3px);
+}
+
+.img {
+    background-image:url(images.jfif) ;
+    /* background-image: url(CSS-Background-Image-Full-Screen-background-size-contain-no-repeat-1024x845.png); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    opacity: 1;
+    z-index: -1;
+}
+
+body {
+    transition: 2s;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    font-size: 45px;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 340px;
+}
+
+p {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    font-size: 21px;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 191px;
+    left: 430px;
+}
+
+h6 {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    font-size: 21px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 26%;
+    left: 46%;
+    z-index: 1;
+    /* background-color: beige; */
+}
+
+h6::before {
+    content: "";
+    width: 110px;
+    height: 40px;
+    border: 1px solid rgb(255, 235, 235);
+    border-radius: 50px;
+    position: absolute;
+    top: -8%;
+    left: -21px;
+    /* background-color: rgb(251, 251, 255); */
+}
+
+h6:hover {
+    transition: 1.2;
+    background-color: blue;
+    width: 110px;
+    height: 40px;
+    /* border: 1px solid rgb(255, 235, 235); */
+    border-radius: 50px;
+    position: relative;
+    /* top: 10%;
+   left: 100px;
+     */
+}
+
+h4 {
+    display: inline-block;
+    /* width: 100%;
+    height: 100px; */
+    background-color: none;
+    font-size: 21px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    z-index: 1;
+}
+.oval{
+    width: 110px;
+    height: 40px;
+    border: 1px solid rgb(255, 235, 235);
+    border-radius: 50px;
+    position: absolute;
+    top: 48%;
+    left: 173px;
+}
+.oval:hover{
+    background-color: blue;
+}
